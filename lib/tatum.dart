@@ -8,6 +8,9 @@ class AccountScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Account')),
       body: const Center(child: Text('This is the Account screen')),
+      bottomNavigationBar: const Text(
+        'Email: Peterogheneovogbagbeke@gmail.com',
+      ),
     );
   }
 }
